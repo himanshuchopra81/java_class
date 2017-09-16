@@ -4,12 +4,12 @@ import java.util.Scanner;
 class GradeCheckIf  {
 
 	public static void main(String args[]) {
-		GradeCheckIf f = new GradeCheckIf();
+		GradeCheckIf obj = new GradeCheckIf();
 		Scanner gradescan = new Scanner(System.in);	
 		System.out.println("Enter grade");
 		int gradeVal = gradescan.nextInt();
 
-		System.out.println(f.calculateGrade(gradeVal));
+		System.out.println(obj.calculateGrade(gradeVal));
 		
 		
 	}
