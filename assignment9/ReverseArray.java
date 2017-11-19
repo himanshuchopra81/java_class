@@ -1,4 +1,4 @@
-package assignment9;
+import java.util.Random;
 
 public class ReverseArray {
 	public static void main(String args[]) {

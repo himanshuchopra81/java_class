@@ -1,14 +1,16 @@
-public class ArrayDemo2 {
+import java.util.Random;
+
+public class CalculateVacationDays {
 	static int[] vacationDays;
 	public static void main(String args[]){
-		ArrayDemo2 ad = new ArrayDemo2();
+		CalculateVacationDays ad = new CalculateVacationDays();
 		//int[] vacationDays = null;
 		Random rand = new Random();
 		int yearsOfService = rand.nextInt(10-1) + 1;
 		int res = ad.displayVacationDays(yearsOfService);
 		System.out.print("Vacation Days are for " +res+ " of employment: "+vacationDays[res]);
 	}
-	public ArrayDemo2() {
+	public CalculateVacationDays() {
 		vacationDays = new int[7];
 		vacationDays[0] = 10;
 		vacationDays[1] = 15;
